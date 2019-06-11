@@ -6,4 +6,5 @@
 <%= @receipt.provision %>
 
 <%= link_to '一覧に戻る', receipts_path %>
+<%= link_to "PDFで表示", output_receipt_path(@receipt, format: 'pdf'), class: 'btn btn-primary' %>
 <%= link_to '削除', @receipt, method: :delete, data: { confirm: "本当によろしいですか？" }, class: 'btn btn-danger btn-xs' %>
