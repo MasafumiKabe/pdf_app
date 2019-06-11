@@ -1,0 +1,9 @@
+<%= @receipt.name %>
+<%= @receipt.date %>
+<%= @receipt.publisher %>
+<%= @receipt.representative %>
+<%= @receipt.price %>
+<%= @receipt.provision %>
+
+<%= link_to '一覧に戻る', receipts_path %>
+<%= link_to '削除', @receipt, method: :delete, data: { confirm: "本当によろしいですか？" }, class: 'btn btn-danger btn-xs' %>
