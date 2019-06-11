@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: MyString
+  name: MyString
+  publisher: MyString
+  representative: MyString
+  price: MyString
+  provision: MyString
+
+two:
+  date: MyString
+  name: MyString
+  publisher: MyString
+  representative: MyString
+  price: MyString
+  provision: MyString
