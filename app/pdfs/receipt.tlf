@@ -1,0 +1,386 @@
+{
+  "version": "0.10.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 157.6,
+      "y": 351.3,
+      "width": 280,
+      "height": 21.4,
+      "style": {
+        "font-family": [
+          "IPAGothic"
+        ],
+        "font-size": 20,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "金　　　　　　　　　　　円也"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 218.1,
+      "y": 214,
+      "width": 36,
+      "height": 28,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "様"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 115.7,
+      "y": 485.5,
+      "width": 223.9,
+      "height": 21.8,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "上記金額を正に受領いたしました。"
+      ]
+    },
+    {
+      "id": "date",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 379.4,
+      "y": 150,
+      "width": 140,
+      "height": 15.5,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 197.6,
+      "y": 104,
+      "width": 200,
+      "height": 44,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 24,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "領　収　書"
+      ]
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#000000",
+        "border-width": 1,
+        "border-style": "solid"
+      },
+      "x1": 76.1,
+      "y1": 231,
+      "x2": 232.1,
+      "y2": 231
+    },
+    {
+      "id": "publisher",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 320.6,
+      "y": 231,
+      "width": 199.1,
+      "height": 15.5,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "middle",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "representative",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 319.9,
+      "y": 248,
+      "width": 200.1,
+      "height": 15.5,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "name",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 82.6,
+      "y": 212.8,
+      "width": 128,
+      "height": 15.5,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#000000",
+        "border-width": 1,
+        "border-style": "solid"
+      },
+      "x1": 158.9,
+      "y1": 373.3,
+      "x2": 436.3,
+      "y2": 373.3
+    },
+    {
+      "id": "price",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 207.6,
+      "y": 351.2,
+      "width": 180,
+      "height": 20,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 20,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 115.7,
+      "y": 545.3,
+      "width": 363.9,
+      "height": 17.4,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "但し、　　　　　　　　　　　　　　　　　　　　として"
+      ]
+    },
+    {
+      "id": "",
+      "type": "line",
+      "display": true,
+      "description": "",
+      "style": {
+        "border-color": "#000000",
+        "border-width": 1,
+        "border-style": "solid"
+      },
+      "x1": 149.9,
+      "y1": 560,
+      "x2": 441.3,
+      "y2": 560
+    },
+    {
+      "id": "provision",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 153.9,
+      "y": 540.7,
+      "width": 280.7,
+      "height": 15.5,
+      "style": {
+        "font-family": [
+          "IPAMincho"
+        ],
+        "font-size": 14,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "fit",
+        "word-wrap": "none"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "sample_pdf",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}
