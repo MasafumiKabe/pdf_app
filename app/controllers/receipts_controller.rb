@@ -29,6 +29,31 @@ class ReceiptsController < ApplicationController
     flash[:success] = '領収書情報を削除しました。'
     redirect_to receipts_url
   end
+
+  def output
+    @receipt = Receipt.find(params[:id])
+
+    respond_to do |format|
+      format.html
+      format.pdf do
+        report = Thinreports::Report.new(layout: "#{Rails.root}/app/pdfs/receipt.tlf")
+
+        report.start_new_page
+
+        report.page.item(:name).value(@receipt.name)
+        report.page.item(:date).value(@receipt.date)
+        report.page.item(:publisher).value(@receipt.publisher)
+        report.page.item(:representative).value(@receipt.representative)
+        report.page.item(:price).value(@receipt.price)
+        report.page.item(:provision).value(@receipt.provision)
+
+        send_data report.generate,
+                  filename:    '#{@receipt.name}.pdf',
+                  type:        'application/pdf',
+                  disposition: 'inline'
+      end
+    end
+  end
 end
 
 private
