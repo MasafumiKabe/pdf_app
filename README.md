@@ -1,24 +1,11 @@
-# README
+# ReceiPDF
+## 概要
+入力した情報を領収書としてPDFに書き出しするアプリ。
+## 言語とライブラリ
+```
+ruby (2.5.0)
+rails (5.1.7)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+'thinreports' # PDF変換機能
+```
+https://receipdf.herokuapp.com
