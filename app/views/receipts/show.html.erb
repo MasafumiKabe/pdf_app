@@ -1,10 +1,45 @@
-<%= @receipt.name %>
-<%= @receipt.date %>
-<%= @receipt.publisher %>
-<%= @receipt.representative %>
-<%= @receipt.price %>
-<%= @receipt.provision %>
+<div class="text-center">
+  <h1><%= @receipt.name %>　様 詳細</h1>
+</div>
 
-<%= link_to '一覧に戻る', receipts_path %>
-<%= link_to "PDFで表示", output_receipt_path(@receipt, format: 'pdf'), class: 'btn btn-primary btn-xs' %>
-<%= link_to '削除', @receipt, method: :delete, data: { confirm: "本当によろしいですか？" }, class: 'btn btn-danger btn-xs' %>
+<div class="row">
+  <div class="col-md-offset-2 col-md-8">
+
+    <div class="pull-right">
+      <%= link_to '削除', @receipt, method: :delete, data: { confirm: "本当によろしいですか？" }, class: 'btn btn-danger btn-xs' %>
+    </div>
+    
+    <table class="table table-striped">
+      <tr>
+        <th>宛名</th>
+        <td><%= @receipt.name %>　様</td>
+      </tr>
+      <tr>
+        <th>日付</th>
+        <td><%= @receipt.date %></td>
+      </tr>
+      <tr>
+        <th>発行者（会社名）</th>
+        <td><%= @receipt.publisher %></td>
+      </tr>
+      <tr>
+        <th>発行者（代表者名）</th>
+        <td><%= @receipt.representative %></td>
+      </tr>
+      <tr>
+        <th>金額</th>
+        <td><%= @receipt.price %>　円</td>
+      </tr>
+      <tr>
+        <th>但し書き</th>
+        <td><%= @receipt.provision %>　として</td>
+      </tr>
+    </table>
+
+    <div class="pull-left">
+      <%= link_to '一覧に戻る', receipts_path %>
+    </div>
+    <div class="pull-right">
+      <%= link_to "PDFで表示", output_receipt_path(@receipt, format: 'pdf'), class: 'btn btn-primary btn-lg' %>    </div>
+  </div>
+</div>
