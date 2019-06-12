@@ -1,18 +1,30 @@
-<% if @receipts.any? %>
-  <ul class="media-list">
-    <% @receipts.each do |receipt| %>
-      <li class="media">
-        <div class="media-body">
-          <div>
-            <%= receipt.name %>
-          </div>
-          <div>
-            <p><%= link_to '詳細', receipt_path(receipt) %></p>
-          </div>
-        </div>
-      </li>
-    <% end %>
-  </ul>
-<% end %>
+<div class="text-center">
+  <h1>領収書情報一覧</h1>
+</div>
 
-<%= link_to '新規作成', new_receipt_path %>
+<div class="row">
+  <div class="col-md-offset-1 col-md-10">
+
+    <%= link_to '＋新規作成', new_receipt_path, class: 'btn btn-primary' %>
+
+    <% if @receipts.any? %>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>日付</th>
+            <th>宛名</th>
+            <th>金額</th>
+          </tr>
+        </thead>
+        <% @receipts.each do |receipt| %>
+          <tr>
+            <td><%= receipt.date %></td>
+            <td><%= link_to receipt.name, receipt_path(receipt) %>　様</td>
+            <td><%= receipt.price %></td>
+          </tr>
+        <% end %>
+      </table>
+    <% end %>
+
+  </div>
+</div>
