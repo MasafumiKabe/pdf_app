@@ -33,6 +33,7 @@ class ReceiptsController < ApplicationController
   def output
     @receipt = Receipt.find(params[:id])
 
+    # PDFの出力
     respond_to do |format|
       format.html
       format.pdf do
